@@ -430,10 +430,8 @@ recipes
 .recipes-container{
   display: grid;
   gap: 2rem 1rem;
-  border: 2px solid red;
 }
 .tags-container{
-  border: 2px solid green;
   order: 1;
   display: flex;
   flex-direction: column;
@@ -443,7 +441,6 @@ recipes
   display: grid;
   gap: 2rem 1rem;
   padding-bottom: 3rem;
-  border: 2px solid green;
 }
 .tags-container h4{
   margin-bottom: 0.5rem;
@@ -494,10 +491,24 @@ recipes
   .recipes-container{
     grid-template-columns: 200px 1fr;
   }
+  .recipe p{
+    font-size: 0.85rem;
+  }
+  .tags-container{
+    order:0;
+  }
+  .tags-list{
+    grid-template-columns: 1fr;
+  }
   
 }
 @media screen and (min-width: 1200px) {
-  
+  .recipe h5{
+    font-size: 1.15rem;
+  }
+  .recipes-list{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 /*
 =============== 
@@ -505,6 +516,51 @@ about
 ===============
 */
 .about{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: 600px;
+}
+/*
+=============== 
+Error
+===============
+*/
+.error-page{
+  text-align: center;
+  padding-top: 5rem;
+}
+.error-page h1{
+  font-size: 9rem;
+}
+/*
+=============== 
+tags
+===============
+*/
+.tags{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: 600px;
+}
+/*
+=============== 
+recipes
+===============
+*/
+.recipes{
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 2rem;
+  min-height: 600px;
+}
+/*
+=============== 
+contact
+===============
+*/
+.contact{
   text-align: center;
   margin: 0 auto;
   padding-top: 2rem;
