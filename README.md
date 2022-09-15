@@ -2,4 +2,4 @@
 
 green chili is made of HTML, CSS & JAVASCRIPT.
 
-Live link:
+Live link: https://milydatta.github.io/green-chili/
